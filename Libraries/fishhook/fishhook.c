@@ -82,7 +82,7 @@ static void perform_rebinding_with_section(struct rebindings_entry *rebindings,
                                            nlist_t *symtab,
                                            char *strtab,
                                            uint32_t *indirect_symtab) {
-  
+  return;
 }
 
 static void rebind_symbols_for_image(struct rebindings_entry *rebindings,
